@@ -1,0 +1,40 @@
+@media (max-width: 528px) {
+  .logo {
+    width: 90px;
+  }
+}
+
+@media (max-width: 400px) {
+  .bg-one {
+    background-image: url(images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.bg-one {
+  background-image: url(images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tiny-image {
+  width: 60px;
+}
+
+.sec-3 {
+  background-color: hsl(238, 22%, 44%);
+  width: 100%;
+}
+
+.fot {
+  background-color: hsl(243, 87%, 12%);
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
